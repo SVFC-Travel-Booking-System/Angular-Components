@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Camera Scanner</h1>
+
+    <!-- Button to start scan -->
+    <button (click)="startScan()">Start Scan</button>
+
+    <!-- Display scanned result -->
+    <div *ngIf="scannedResult">
+        <p>{{ scannedResult }}</p>
+    </div>
+</div>

@@ -50,6 +50,7 @@ import { IdcheckerComponent } from './components/idchecker/idchecker.component';
 import { AiassistantComponent } from './components/aiassistant/aiassistant.component';
 import { LocationfinderComponent } from './components/locationfinder/locationfinder.component';
 import { BioscannerComponent } from './components/bioscanner/bioscanner.component';
+import { CamscannerComponent } from './components/camscanner/camscanner.component';
 
 
 @NgModule({
@@ -101,6 +102,7 @@ import { BioscannerComponent } from './components/bioscanner/bioscanner.componen
     AiassistantComponent,
     LocationfinderComponent,
     BioscannerComponent,
+    CamscannerComponent,
 
 
 
