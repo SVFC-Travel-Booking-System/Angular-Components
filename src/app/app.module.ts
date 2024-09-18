@@ -47,6 +47,7 @@ import { DivisiblecheckerComponent } from './components/divisiblechecker/divisib
 import { AutoclickerComponent } from './components/autoclicker/autoclicker.component';
 import { AutofinderComponent } from './components/autofinder/autofinder.component';
 import { IdcheckerComponent } from './components/idchecker/idchecker.component';
+import { AiassistantComponent } from './components/aiassistant/aiassistant.component';
 
 
 @NgModule({
@@ -95,6 +96,7 @@ import { IdcheckerComponent } from './components/idchecker/idchecker.component';
     AutoclickerComponent,
     AutofinderComponent,
     IdcheckerComponent,
+    AiassistantComponent,
 
 
 

@@ -43,7 +43,7 @@ import { DivisiblecheckerComponent } from './components/divisiblechecker/divisib
 import { AutoclickerComponent } from './components/autoclicker/autoclicker.component';
 import { AutofinderComponent } from './components/autofinder/autofinder.component';
 import { IdcheckerComponent } from './components/idchecker/idchecker.component';
-
+import { AiassistantComponent } from './components/aiassistant/aiassistant.component';
 
 
 const routes: Routes = [
@@ -90,7 +90,7 @@ const routes: Routes = [
   { path: 'auto-clicker', component: AutoclickerComponent },
   { path: 'auto-finder', component: AutofinderComponent},
   { path: 'id-checker', component: IdcheckerComponent},
-
+  { path: 'ai-assistant', component: AiassistantComponent},
 
 
 
