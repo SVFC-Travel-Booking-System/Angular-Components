@@ -39,7 +39,7 @@ import { OddsumcalculatorComponent } from './components/oddsumcalculator/oddsumc
 import { CurrencyformatterComponent } from './components/currencyformatter/currencyformatter.component';
 import { RandomquotedisplayComponent } from './components/randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
-
+import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 
 
 const routes: Routes = [
@@ -82,8 +82,9 @@ const routes: Routes = [
   { path: 'currency-formatter', component: CurrencyformatterComponent },
   { path: 'random-quote-display', component: RandomquotedisplayComponent },
   { path: 'uppercase-greeting', component: UppercasegreetingComponent },
+  { path: 'divisible-checker', component: DivisiblecheckerComponent },
 
-
+  
 ];
 
 @NgModule({

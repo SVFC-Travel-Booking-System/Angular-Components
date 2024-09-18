@@ -43,6 +43,7 @@ import { OddsumcalculatorComponent } from './components/oddsumcalculator/oddsumc
 import { CurrencyformatterComponent } from './components/currencyformatter/currencyformatter.component';
 import { RandomquotedisplayComponent } from './components/randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
+import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 
 
 @NgModule({
@@ -87,6 +88,7 @@ import { UppercasegreetingComponent } from './components/uppercasegreeting/upper
     CurrencyformatterComponent,
     RandomquotedisplayComponent,
     UppercasegreetingComponent,
+    DivisiblecheckerComponent,
 
 
 
