@@ -5,6 +5,7 @@ import { ShowhellobuttonComponent } from './components/showhellobutton/showhello
 import { DisplaynameComponent } from './components/displayname/displayname.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { SimpleformComponent } from './components/simpleform/simpleform.component';
+import { UserageComponent } from './components/userage/userage.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'display-name', component: DisplaynameComponent },
   { path: 'counter', component: CounterComponent },
   { path: 'simple-form', component: SimpleformComponent },
+  { path: 'user-age', component: UserageComponent },
   
 
 ];
