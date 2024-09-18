@@ -22,6 +22,7 @@ import { MultiplicationtableComponent } from './components/multiplicationtable/m
 import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
+import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.co
     SimpleloginComponent,
     FahrenheittocelsiusComponent,
     BookmarklistComponent,
+    CharactercounterComponent,
 
 
 

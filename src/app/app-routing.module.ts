@@ -18,6 +18,8 @@ import { MultiplicationtableComponent } from './components/multiplicationtable/m
 import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
+import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
+
 
 const routes: Routes = [
   { path: 'display-hello-world', component: DisplayhelloworldComponent },
@@ -38,6 +40,8 @@ const routes: Routes = [
   { path: 'simple-login', component: SimpleloginComponent },
   { path: 'fahrenheit-to-celsius', component: FahrenheittocelsiusComponent },
   { path: 'bookmark-list', component: BookmarklistComponent },
+  { path: 'character-counter', component: CharactercounterComponent },
+   
   
 
 ];
