@@ -12,6 +12,7 @@ import { TextlengthComponent } from './components/textlength/textlength.componen
 import { CurrencyconverterComponent } from './components/currencyconverter/currencyconverter.component';
 import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchecker.component';
 import { WordreverserComponent } from './components/wordreverser/wordreverser.component';
+import { ShowdateComponent } from './components/showdate/showdate.component';
 
 const routes: Routes = [
   { path: 'display-hello-world', component: DisplayhelloworldComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'currency-converter', component: CurrencyconverterComponent },
   { path: 'even-odd-checker', component: EvenoddcheckerComponent },
   { path: 'word-reverser', component: WordreverserComponent },
+  { path: 'show-date', component: ShowdateComponent },
   
 
 ];
