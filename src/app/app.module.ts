@@ -31,6 +31,7 @@ import { TodomanagerComponent } from './components/todomanager/todomanager.compo
 import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumbergame.component';
 import { WordcounterComponent } from './components/wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from './components/randomnumbergenerator/randomnumbergenerator.component';
+import { MultiplicationcheckerComponent } from './components/multiplicationchecker/multiplicationchecker.component';
 
 
 @NgModule({
@@ -63,6 +64,7 @@ import { RandomnumbergeneratorComponent } from './components/randomnumbergenerat
     GuessnumbergameComponent,
     WordcounterComponent,
     RandomnumbergeneratorComponent,
+    MultiplicationcheckerComponent,
 
 
 
