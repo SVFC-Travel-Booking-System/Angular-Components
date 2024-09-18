@@ -47,8 +47,7 @@ import { AiassistantComponent } from './components/aiassistant/aiassistant.compo
 import { LocationfinderComponent } from './components/locationfinder/locationfinder.component';
 import { BioscannerComponent } from './components/bioscanner/bioscanner.component';
 import { CamscannerComponent } from './components/camscanner/camscanner.component';
-
-
+import { NotificationComponent } from './components/notification/notification.component';
 
 
 const routes: Routes = [
@@ -97,11 +96,13 @@ const routes: Routes = [
   { path: 'id-checker', component: IdcheckerComponent},
   { path: 'ai-assistant', component: AiassistantComponent},
   { path: 'location-finder', component: LocationfinderComponent},
-  { path: 'bio-scanner', component: BioscannerComponent},
-  { path: 'cam-scanner', component: CamscannerComponent},
+  { path: 'bio-scanner', component: BioscannerComponent },
+  { path: 'cam-scanner', component: CamscannerComponent },
+  { path: 'notification', component: NotificationComponent},
 
 
 
+  
 ];
 
 @NgModule({

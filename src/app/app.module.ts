@@ -51,6 +51,7 @@ import { AiassistantComponent } from './components/aiassistant/aiassistant.compo
 import { LocationfinderComponent } from './components/locationfinder/locationfinder.component';
 import { BioscannerComponent } from './components/bioscanner/bioscanner.component';
 import { CamscannerComponent } from './components/camscanner/camscanner.component';
+import { NotificationComponent } from './components/notification/notification.component';
 
 
 @NgModule({
@@ -103,6 +104,7 @@ import { CamscannerComponent } from './components/camscanner/camscanner.componen
     LocationfinderComponent,
     BioscannerComponent,
     CamscannerComponent,
+    NotificationComponent,
 
 
 
