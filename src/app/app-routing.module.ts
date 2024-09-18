@@ -16,6 +16,7 @@ import { ShowdateComponent } from './components/showdate/showdate.component';
 import { ShowusernameComponent } from './components/showusername/showusername.component';
 import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
 import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
+import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 
 
 const routes: Routes = [
@@ -35,6 +36,7 @@ const routes: Routes = [
   { path: 'show-username', component: ShowusernameComponent },
   { path: 'multiplication-table', component: MultiplicationtableComponent },
   { path: 'simple-login', component: SimpleloginComponent },
+  { path: 'fahrenheit-to-celsius', component: FahrenheittocelsiusComponent },
   
 
 ];
