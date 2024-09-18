@@ -44,6 +44,7 @@ import { CurrencyformatterComponent } from './components/currencyformatter/curre
 import { RandomquotedisplayComponent } from './components/randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
+import { AutoclickerComponent } from './components/autoclicker/autoclicker.component';
 
 
 @NgModule({
@@ -89,6 +90,7 @@ import { DivisiblecheckerComponent } from './components/divisiblechecker/divisib
     RandomquotedisplayComponent,
     UppercasegreetingComponent,
     DivisiblecheckerComponent,
+    AutoclickerComponent,
 
 
 
