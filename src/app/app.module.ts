@@ -40,6 +40,7 @@ import { InterestcalculatorComponent } from './components/interestcalculator/int
 import { CompoundinterestcalculatorComponent } from './components/compoundinterestcalculator/compoundinterestcalculator.component';
 import { FibonaccigeneratorComponent } from './components/fibonaccigenerator/fibonaccigenerator.component';
 import { OddsumcalculatorComponent } from './components/oddsumcalculator/oddsumcalculator.component';
+import { CurrencyformatterComponent } from './components/currencyformatter/currencyformatter.component';
 
 
 @NgModule({
@@ -81,6 +82,7 @@ import { OddsumcalculatorComponent } from './components/oddsumcalculator/oddsumc
     CompoundinterestcalculatorComponent,
     FibonaccigeneratorComponent,
     OddsumcalculatorComponent,
+    CurrencyformatterComponent,
 
 
 
