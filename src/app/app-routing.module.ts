@@ -42,7 +42,7 @@ import { UppercasegreetingComponent } from './components/uppercasegreeting/upper
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { AutoclickerComponent } from './components/autoclicker/autoclicker.component';
 import { AutofinderComponent } from './components/autofinder/autofinder.component';
-
+import { IdcheckerComponent } from './components/idchecker/idchecker.component';
 
 
 
@@ -89,11 +89,11 @@ const routes: Routes = [
   { path: 'divisible-checker', component: DivisiblecheckerComponent },
   { path: 'auto-clicker', component: AutoclickerComponent },
   { path: 'auto-finder', component: AutofinderComponent},
+  { path: 'id-checker', component: IdcheckerComponent},
 
 
 
 
-  
 ];
 
 @NgModule({

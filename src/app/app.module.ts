@@ -46,6 +46,7 @@ import { UppercasegreetingComponent } from './components/uppercasegreeting/upper
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { AutoclickerComponent } from './components/autoclicker/autoclicker.component';
 import { AutofinderComponent } from './components/autofinder/autofinder.component';
+import { IdcheckerComponent } from './components/idchecker/idchecker.component';
 
 
 @NgModule({
@@ -93,6 +94,7 @@ import { AutofinderComponent } from './components/autofinder/autofinder.componen
     DivisiblecheckerComponent,
     AutoclickerComponent,
     AutofinderComponent,
+    IdcheckerComponent,
 
 
 
