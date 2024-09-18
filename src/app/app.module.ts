@@ -38,6 +38,7 @@ import { BmisolverComponent } from './components/bmisolver/bmisolver.component';
 import { UsernamevalidatorComponent } from './components/usernamevalidator/usernamevalidator.component';
 import { InterestcalculatorComponent } from './components/interestcalculator/interestcalculator.component';
 import { CompoundinterestcalculatorComponent } from './components/compoundinterestcalculator/compoundinterestcalculator.component';
+import { FibonaccigeneratorComponent } from './components/fibonaccigenerator/fibonaccigenerator.component';
 
 
 @NgModule({
@@ -77,6 +78,7 @@ import { CompoundinterestcalculatorComponent } from './components/compoundintere
     UsernamevalidatorComponent,
     InterestcalculatorComponent,
     CompoundinterestcalculatorComponent,
+    FibonaccigeneratorComponent,
 
 
 
