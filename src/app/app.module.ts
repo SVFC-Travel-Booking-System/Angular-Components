@@ -11,6 +11,8 @@ import { CounterComponent } from './components/counter/counter.component';
 import { SimpleformComponent } from './components/simpleform/simpleform.component';
 import { UserageComponent } from './components/userage/userage.component';
 import { UsergreetingComponent } from './components/usergreeting/usergreeting.component';
+import { CalculatorComponent } from './components/calculator/calculator.component';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import { UsergreetingComponent } from './components/usergreeting/usergreeting.co
     SimpleformComponent,
     UserageComponent,
     UsergreetingComponent,
+    CalculatorComponent,
 
 
 
