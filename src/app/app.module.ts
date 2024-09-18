@@ -49,6 +49,7 @@ import { AutofinderComponent } from './components/autofinder/autofinder.componen
 import { IdcheckerComponent } from './components/idchecker/idchecker.component';
 import { AiassistantComponent } from './components/aiassistant/aiassistant.component';
 import { LocationfinderComponent } from './components/locationfinder/locationfinder.component';
+import { BioscannerComponent } from './components/bioscanner/bioscanner.component';
 
 
 @NgModule({
@@ -99,6 +100,7 @@ import { LocationfinderComponent } from './components/locationfinder/locationfin
     IdcheckerComponent,
     AiassistantComponent,
     LocationfinderComponent,
+    BioscannerComponent,
 
 
 

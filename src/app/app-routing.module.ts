@@ -45,7 +45,7 @@ import { AutofinderComponent } from './components/autofinder/autofinder.componen
 import { IdcheckerComponent } from './components/idchecker/idchecker.component';
 import { AiassistantComponent } from './components/aiassistant/aiassistant.component';
 import { LocationfinderComponent } from './components/locationfinder/locationfinder.component';
-
+import { BioscannerComponent } from './components/bioscanner/bioscanner.component';
 
 
 const routes: Routes = [
@@ -94,7 +94,7 @@ const routes: Routes = [
   { path: 'id-checker', component: IdcheckerComponent},
   { path: 'ai-assistant', component: AiassistantComponent},
   { path: 'location-finder', component: LocationfinderComponent},
-
+  { path: 'bio-scanner', component: BioscannerComponent},
 
 ];
 
