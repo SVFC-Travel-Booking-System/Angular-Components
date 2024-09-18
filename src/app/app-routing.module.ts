@@ -48,6 +48,7 @@ import { LocationfinderComponent } from './components/locationfinder/locationfin
 import { BioscannerComponent } from './components/bioscanner/bioscanner.component';
 import { CamscannerComponent } from './components/camscanner/camscanner.component';
 import { NotificationComponent } from './components/notification/notification.component';
+import { GalleryviewerComponent } from './components/galleryviewer/galleryviewer.component';
 
 
 const routes: Routes = [
@@ -99,10 +100,11 @@ const routes: Routes = [
   { path: 'bio-scanner', component: BioscannerComponent },
   { path: 'cam-scanner', component: CamscannerComponent },
   { path: 'notification', component: NotificationComponent},
-
-
-
+  { path: 'gallery-viewer', component: GalleryviewerComponent},
   
+
+
+
 ];
 
 @NgModule({

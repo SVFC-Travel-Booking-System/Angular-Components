@@ -52,6 +52,7 @@ import { LocationfinderComponent } from './components/locationfinder/locationfin
 import { BioscannerComponent } from './components/bioscanner/bioscanner.component';
 import { CamscannerComponent } from './components/camscanner/camscanner.component';
 import { NotificationComponent } from './components/notification/notification.component';
+import { GalleryviewerComponent } from './components/galleryviewer/galleryviewer.component';
 
 
 @NgModule({
@@ -105,6 +106,7 @@ import { NotificationComponent } from './components/notification/notification.co
     BioscannerComponent,
     CamscannerComponent,
     NotificationComponent,
+    GalleryviewerComponent,
 
 
 

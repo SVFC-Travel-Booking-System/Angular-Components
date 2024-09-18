@@ -1,0 +1,14 @@
+<div class="gallery-container">
+    <h2>Image Gallery Viewer</h2>
+
+    <!-- Display the current image -->
+    <div class="image-viewer">
+        <img [src]="images[currentIndex]" alt="Gallery Image" />
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="controls">
+        <button (click)="prevImage()" [disabled]="currentIndex === 0">Previous</button>
+        <button (click)="nextImage()" [disabled]="currentIndex === images.length - 1">Next</button>
+    </div>
+</div>
