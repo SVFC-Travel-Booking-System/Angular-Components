@@ -32,6 +32,7 @@ import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumb
 import { WordcounterComponent } from './components/wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from './components/randomnumbergenerator/randomnumbergenerator.component';
 import { MultiplicationcheckerComponent } from './components/multiplicationchecker/multiplicationchecker.component';
+import { UppercaseconverterComponent } from './components/uppercaseconverter/uppercaseconverter.component';
 
 
 @NgModule({
@@ -65,6 +66,7 @@ import { MultiplicationcheckerComponent } from './components/multiplicationcheck
     WordcounterComponent,
     RandomnumbergeneratorComponent,
     MultiplicationcheckerComponent,
+    UppercaseconverterComponent,
 
 
 
