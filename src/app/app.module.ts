@@ -14,6 +14,7 @@ import { UsergreetingComponent } from './components/usergreeting/usergreeting.co
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { TextlengthComponent } from './components/textlength/textlength.component';
 import { CurrencyconverterComponent } from './components/currencyconverter/currencyconverter.component';
+import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchecker.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { CurrencyconverterComponent } from './components/currencyconverter/curre
     CalculatorComponent,
     TextlengthComponent,
     CurrencyconverterComponent,
+    EvenoddcheckerComponent,
 
 
 
