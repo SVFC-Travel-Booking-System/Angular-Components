@@ -25,8 +25,7 @@ import { ShoppinglistComponent } from './components/shoppinglist/shoppinglist.co
 import { FactorialcalculatorComponent } from './components/factorialcalculator/factorialcalculator.component';
 import { TodomanagerComponent } from './components/todomanager/todomanager.component';
 import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumbergame.component';
-
-
+import { WordcounterComponent } from './components/wordcounter/wordcounter.component';
 
 
 
@@ -57,6 +56,7 @@ const routes: Routes = [
   { path: 'factorial-calculator', component: FactorialcalculatorComponent },
   { path: 'todo-manager', component: TodomanagerComponent },
   { path: 'guess-number-game', component: GuessnumbergameComponent },
+  { path: 'word-counter', component: WordcounterComponent },
    
   
 
