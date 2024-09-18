@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular_Components';
-  message: string = 'Hello World';
+
+
+  message: string = '';
+
+  showMessage() {
+    this.message = 'Hello World';
+
+
+
+  }
 }
