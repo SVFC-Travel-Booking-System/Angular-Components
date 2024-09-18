@@ -1,0 +1,34 @@
+<div class="container">
+    <h1>Auto Finder</h1>
+
+    <!-- Input field for searching -->
+    <div>
+        <input type="text" [(ngModel)]="searchQuery" (input)="filterSuggestions()" placeholder="Type to search..." />
+        <button (click)="clearSelection()">Clear</button>
+    </div>
+
+    <!-- Display the selected suggestion -->
+    <div *ngIf="selectedSuggestion">
+        <h2>Selected: {{ selectedSuggestion }}</h2>
+        <button (click)="clearSelection()">Clear Selection</button>
+    </div>
+
+    <!-- Display filtered suggestions -->
+    <ul *ngIf="suggestions.length > 0">
+        <li *ngFor="let suggestion of suggestions" (click)="selectSuggestion(suggestion)">
+            {{ suggestion }}
+        </li>
+    </ul>
+
+    <!-- Display full list of items -->
+    <div>
+        <h2>Full List of Items</h2>
+        <ul>
+            <li *ngFor="let item of allSuggestions">
+                {{ item }}
+            </li>
+        </ul>
+    </div>
+
+    <p *ngIf="suggestions.length === 0 && searchQuery">No suggestions found.</p>
+</div>

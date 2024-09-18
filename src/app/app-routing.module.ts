@@ -41,7 +41,7 @@ import { RandomquotedisplayComponent } from './components/randomquotedisplay/ran
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { AutoclickerComponent } from './components/autoclicker/autoclicker.component';
-
+import { AutofinderComponent } from './components/autofinder/autofinder.component';
 
 
 
@@ -88,7 +88,12 @@ const routes: Routes = [
   { path: 'uppercase-greeting', component: UppercasegreetingComponent },
   { path: 'divisible-checker', component: DivisiblecheckerComponent },
   { path: 'auto-clicker', component: AutoclickerComponent },
+  { path: 'auto-finder', component: AutofinderComponent},
 
+
+
+
+  
 ];
 
 @NgModule({

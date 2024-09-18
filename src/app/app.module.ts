@@ -45,6 +45,7 @@ import { RandomquotedisplayComponent } from './components/randomquotedisplay/ran
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { AutoclickerComponent } from './components/autoclicker/autoclicker.component';
+import { AutofinderComponent } from './components/autofinder/autofinder.component';
 
 
 @NgModule({
@@ -91,6 +92,7 @@ import { AutoclickerComponent } from './components/autoclicker/autoclicker.compo
     UppercasegreetingComponent,
     DivisiblecheckerComponent,
     AutoclickerComponent,
+    AutofinderComponent,
 
 
 
