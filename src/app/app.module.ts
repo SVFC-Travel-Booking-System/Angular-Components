@@ -25,6 +25,7 @@ import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.co
 import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
 import { PalindromecheckerComponent } from './components/palindromechecker/palindromechecker.component';
 import { TemperatureconverterComponent } from './components/temperatureconverter/temperatureconverter.component';
+import { ShoppinglistComponent } from './components/shoppinglist/shoppinglist.component';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import { TemperatureconverterComponent } from './components/temperatureconverter
     CharactercounterComponent,
     PalindromecheckerComponent,
     TemperatureconverterComponent,
+    ShoppinglistComponent,
 
 
 

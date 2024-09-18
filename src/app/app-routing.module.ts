@@ -21,6 +21,9 @@ import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.co
 import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
 import { PalindromecheckerComponent } from './components/palindromechecker/palindromechecker.component'
 import { TemperatureconverterComponent } from './components/temperatureconverter/temperatureconverter.component';
+import { ShoppinglistComponent } from './components/shoppinglist/shoppinglist.component';
+
+
 
 
 const routes: Routes = [
@@ -45,6 +48,7 @@ const routes: Routes = [
   { path: 'character-counter', component: CharactercounterComponent },
   { path: 'palindrome-checker', component: PalindromecheckerComponent },
   { path: 'temperature-converter', component: TemperatureconverterComponent },
+  { path: 'shopping-list', component: ShoppinglistComponent },
    
   
 
