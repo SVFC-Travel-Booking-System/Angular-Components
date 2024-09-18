@@ -19,6 +19,7 @@ import { SimpleloginComponent } from './components/simplelogin/simplelogin.compo
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
 import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
+import { PalindromecheckerComponent } from './components/palindromechecker/palindromechecker.component'
 
 
 const routes: Routes = [
@@ -41,6 +42,7 @@ const routes: Routes = [
   { path: 'fahrenheit-to-celsius', component: FahrenheittocelsiusComponent },
   { path: 'bookmark-list', component: BookmarklistComponent },
   { path: 'character-counter', component: CharactercounterComponent },
+  { path: 'palindrome-checker', component: PalindromecheckerComponent },
    
   
 
