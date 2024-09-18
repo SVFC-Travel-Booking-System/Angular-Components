@@ -33,6 +33,7 @@ import { WordcounterComponent } from './components/wordcounter/wordcounter.compo
 import { RandomnumbergeneratorComponent } from './components/randomnumbergenerator/randomnumbergenerator.component';
 import { MultiplicationcheckerComponent } from './components/multiplicationchecker/multiplicationchecker.component';
 import { UppercaseconverterComponent } from './components/uppercaseconverter/uppercaseconverter.component';
+import { WordshufflerComponent } from './components/wordshuffler/wordshuffler.component';
 
 
 @NgModule({
@@ -67,6 +68,7 @@ import { UppercaseconverterComponent } from './components/uppercaseconverter/upp
     RandomnumbergeneratorComponent,
     MultiplicationcheckerComponent,
     UppercaseconverterComponent,
+    WordshufflerComponent,
 
 
 

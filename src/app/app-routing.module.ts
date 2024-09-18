@@ -29,6 +29,8 @@ import { WordcounterComponent } from './components/wordcounter/wordcounter.compo
 import { RandomnumbergeneratorComponent } from './components/randomnumbergenerator/randomnumbergenerator.component';
 import { MultiplicationcheckerComponent } from './components/multiplicationchecker/multiplicationchecker.component';
 import { UppercaseconverterComponent } from './components/uppercaseconverter/uppercaseconverter.component';
+import { WordshufflerComponent } from './components/wordshuffler/wordshuffler.component';
+
 
 
 const routes: Routes = [
@@ -61,6 +63,9 @@ const routes: Routes = [
   { path: 'random-number-generator', component: RandomnumbergeneratorComponent },
   { path: 'multiplication-checker', component: MultiplicationcheckerComponent },
   { path: 'uppercase-converter', component: UppercaseconverterComponent },
+  { path: 'word-shuffler', component: WordshufflerComponent },
+
+
 
 ];
 
