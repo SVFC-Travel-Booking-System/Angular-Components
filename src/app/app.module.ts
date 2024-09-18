@@ -24,6 +24,7 @@ import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/f
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
 import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
 import { PalindromecheckerComponent } from './components/palindromechecker/palindromechecker.component';
+import { TemperatureconverterComponent } from './components/temperatureconverter/temperatureconverter.component';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { PalindromecheckerComponent } from './components/palindromechecker/palin
     BookmarklistComponent,
     CharactercounterComponent,
     PalindromecheckerComponent,
+    TemperatureconverterComponent,
 
 
 
