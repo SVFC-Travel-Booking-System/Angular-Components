@@ -49,6 +49,7 @@ import { BioscannerComponent } from './components/bioscanner/bioscanner.componen
 import { CamscannerComponent } from './components/camscanner/camscanner.component';
 import { NotificationComponent } from './components/notification/notification.component';
 import { GalleryviewerComponent } from './components/galleryviewer/galleryviewer.component';
+import { ScorecheckerComponent } from  './components/scorechecker/scorechecker.component';
 
 
 const routes: Routes = [
@@ -101,7 +102,8 @@ const routes: Routes = [
   { path: 'cam-scanner', component: CamscannerComponent },
   { path: 'notification', component: NotificationComponent},
   { path: 'gallery-viewer', component: GalleryviewerComponent},
-  
+  { path: 'score-checker', component: ScorecheckerComponent},
+  { path: '', redirectTo: '/display-hello-world', pathMatch: 'full' }
 
 
 

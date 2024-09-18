@@ -53,6 +53,7 @@ import { BioscannerComponent } from './components/bioscanner/bioscanner.componen
 import { CamscannerComponent } from './components/camscanner/camscanner.component';
 import { NotificationComponent } from './components/notification/notification.component';
 import { GalleryviewerComponent } from './components/galleryviewer/galleryviewer.component';
+import { ScorecheckerComponent } from './components/scorechecker/scorechecker.component';
 
 
 @NgModule({
@@ -107,6 +108,7 @@ import { GalleryviewerComponent } from './components/galleryviewer/galleryviewer
     CamscannerComponent,
     NotificationComponent,
     GalleryviewerComponent,
+    ScorecheckerComponent,
 
 
 
