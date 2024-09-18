@@ -42,6 +42,7 @@ import { FibonaccigeneratorComponent } from './components/fibonaccigenerator/fib
 import { OddsumcalculatorComponent } from './components/oddsumcalculator/oddsumcalculator.component';
 import { CurrencyformatterComponent } from './components/currencyformatter/currencyformatter.component';
 import { RandomquotedisplayComponent } from './components/randomquotedisplay/randomquotedisplay.component';
+import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 
 
 @NgModule({
@@ -85,6 +86,7 @@ import { RandomquotedisplayComponent } from './components/randomquotedisplay/ran
     OddsumcalculatorComponent,
     CurrencyformatterComponent,
     RandomquotedisplayComponent,
+    UppercasegreetingComponent,
 
 
 
