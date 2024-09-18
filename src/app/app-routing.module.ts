@@ -14,6 +14,7 @@ import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchec
 import { WordreverserComponent } from './components/wordreverser/wordreverser.component';
 import { ShowdateComponent } from './components/showdate/showdate.component';
 import { ShowusernameComponent } from './components/showusername/showusername.component';
+import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
 
 const routes: Routes = [
   { path: 'display-hello-world', component: DisplayhelloworldComponent },
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'word-reverser', component: WordreverserComponent },
   { path: 'show-date', component: ShowdateComponent },
   { path: 'show-username', component: ShowusernameComponent },
+  { path: 'multiplication-table', component: MultiplicationtableComponent },
   
 
 ];
