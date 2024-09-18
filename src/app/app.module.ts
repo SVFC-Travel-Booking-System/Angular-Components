@@ -48,6 +48,7 @@ import { AutoclickerComponent } from './components/autoclicker/autoclicker.compo
 import { AutofinderComponent } from './components/autofinder/autofinder.component';
 import { IdcheckerComponent } from './components/idchecker/idchecker.component';
 import { AiassistantComponent } from './components/aiassistant/aiassistant.component';
+import { LocationfinderComponent } from './components/locationfinder/locationfinder.component';
 
 
 @NgModule({
@@ -97,6 +98,7 @@ import { AiassistantComponent } from './components/aiassistant/aiassistant.compo
     AutofinderComponent,
     IdcheckerComponent,
     AiassistantComponent,
+    LocationfinderComponent,
 
 
 
