@@ -23,7 +23,7 @@ import { PalindromecheckerComponent } from './components/palindromechecker/palin
 import { TemperatureconverterComponent } from './components/temperatureconverter/temperatureconverter.component';
 import { ShoppinglistComponent } from './components/shoppinglist/shoppinglist.component';
 import { FactorialcalculatorComponent } from './components/factorialcalculator/factorialcalculator.component';
-
+import { TodomanagerComponent } from './components/todomanager/todomanager.component';
 
 
 const routes: Routes = [
@@ -50,7 +50,7 @@ const routes: Routes = [
   { path: 'temperature-converter', component: TemperatureconverterComponent },
   { path: 'shopping-list', component: ShoppinglistComponent },
   { path: 'factorial-calculator', component: FactorialcalculatorComponent },
-  
+  { path: 'todo-manager', component: TodomanagerComponent },
    
   
 
