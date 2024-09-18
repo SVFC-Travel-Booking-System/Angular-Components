@@ -10,9 +10,15 @@ export class AppComponent {
 
 
   message: string = '';
+  name: string = '';     // To store the user's input
+  displayName: string = '';  // To store the name to display
 
   showMessage() {
     this.message = 'Hello World';
+
+  }
+  showName() {
+      this.displayName = this.name;
 
 
 
